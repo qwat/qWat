@@ -1,0 +1,510 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" groupLayer="" checked="Qt::Checked">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer name="organisation" expanded="1" patch_size="-1,-1" legend_split_behavior="0" source="dbname='qwat140' host=localhost port=5433 sslmode=disable key='obj_id' checkPrimaryKeyUnicity='0' table=&quot;qwat_od&quot;.&quot;organisation&quot;" id="organisation_3ef23cbe_fb5b_49c7_83e9_b8dfd77b16f1" providerKey="postgres" checked="Qt::Checked" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" minScale="1e+08" autoRefreshMode="Disabled" autoRefreshTime="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" geometry="No geometry" wkbType="NoGeometry" refreshOnNotifyMessage="" type="vector" maxScale="0">
+      <id>organisation_3ef23cbe_fb5b_49c7_83e9_b8dfd77b16f1</id>
+      <datasource>dbname='qwat140' host=localhost port=5433 sslmode=disable key='obj_id' checkPrimaryKeyUnicity='0' table="qwat_od"."organisation"</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>organisation</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxz="0" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minz="0" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endExpression="" durationField="municipality_number" mode="0" endField="" durationUnit="min" enabled="0" limitMode="0" accumulate="0" startExpression="" fixedDuration="0" startField="last_modification">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusionEnabled="0" binding="Centroid" symbology="Line" clamping="Terrain" extrusion="0" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" zoffset="0" zscale="1" type="IndividualFeatures">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol alpha="1" frame_rate="10" name="" clip_to_extent="1" force_rhr="0" is_animated="0" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleLine" enabled="1" id="{cc80db50-9437-42dc-b729-19d328e9adf9}" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="125,139,143,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol alpha="1" frame_rate="10" name="" clip_to_extent="1" force_rhr="0" is_animated="0" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" id="{5e2348f9-9829-49df-b503-146c7085c5aa}" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="125,139,143,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="89,99,102,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol alpha="1" frame_rate="10" name="" clip_to_extent="1" force_rhr="0" is_animated="0" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" id="{dad949d5-b707-47be-bc04-7ef3eff9b519}" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" value="0" type="QString"/>
+                <Option name="cap_style" value="square" type="QString"/>
+                <Option name="color" value="125,139,143,255" type="QString"/>
+                <Option name="horizontal_anchor_point" value="1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="name" value="diamond" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="89,99,102,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="scale_method" value="diameter" type="QString"/>
+                <Option name="size" value="3" type="QString"/>
+                <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="size_unit" value="MM" type="QString"/>
+                <Option name="vertical_anchor_point" value="1" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <customproperties>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;obj_id&quot;" type="QString"/>
+          </Option>
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="obj_id" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifier" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifier_short" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="municipality_number" configurationFlags="NoFlag">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="organisation_type" configurationFlags="NoFlag">
+          <editWidget type="ValueRelation">
+            <config>
+              <Option type="Map">
+                <Option name="AllowMulti" value="false" type="bool"/>
+                <Option name="AllowNull" value="true" type="bool"/>
+                <Option name="Description" value="" type="QString"/>
+                <Option name="FilterExpression" value="" type="QString"/>
+                <Option name="Key" value="code" type="QString"/>
+                <Option name="Layer" value="organisation_organisation_type_d84b2291_7ba3_41c3_9014_4f9b96654642" type="QString"/>
+                <Option name="LayerName" value="organisation_organisation_type" type="QString"/>
+                <Option name="LayerProviderName" value="postgres" type="QString"/>
+                <Option name="LayerSource" value="dbname='qwat140' host=localhost port=5433 sslmode=disable key='code' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;organisation_organisation_type&quot;" type="QString"/>
+                <Option name="NofColumns" value="1" type="int"/>
+                <Option name="OrderByValue" value="true" type="bool"/>
+                <Option name="UseCompleter" value="false" type="bool"/>
+                <Option name="Value" value="value_en" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="remark" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="status" configurationFlags="NoFlag">
+          <editWidget type="ValueRelation">
+            <config>
+              <Option type="Map">
+                <Option name="AllowMulti" value="false" type="bool"/>
+                <Option name="AllowNull" value="true" type="bool"/>
+                <Option name="Description" value="" type="QString"/>
+                <Option name="FilterExpression" value="" type="QString"/>
+                <Option name="Key" value="code" type="QString"/>
+                <Option name="Layer" value="organisation_status_ffdd044b_2a53_4410_a9e6_079f88bc1d4a" type="QString"/>
+                <Option name="LayerName" value="organisation_status" type="QString"/>
+                <Option name="LayerProviderName" value="postgres" type="QString"/>
+                <Option name="LayerSource" value="dbname='qwat140' host=localhost port=5433 sslmode=disable key='code' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;organisation_status&quot;" type="QString"/>
+                <Option name="NofColumns" value="1" type="int"/>
+                <Option name="OrderByValue" value="true" type="bool"/>
+                <Option name="UseCompleter" value="false" type="bool"/>
+                <Option name="Value" value="value_en" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uid" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="last_modification" configurationFlags="NoFlag">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fk_dataowner" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fk_provider" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="obj_id" index="0"/>
+        <alias name="" field="identifier" index="1"/>
+        <alias name="" field="identifier_short" index="2"/>
+        <alias name="" field="municipality_number" index="3"/>
+        <alias name="" field="organisation_type" index="4"/>
+        <alias name="" field="remark" index="5"/>
+        <alias name="" field="status" index="6"/>
+        <alias name="" field="uid" index="7"/>
+        <alias name="" field="last_modification" index="8"/>
+        <alias name="" field="fk_dataowner" index="9"/>
+        <alias name="" field="fk_provider" index="10"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="obj_id"/>
+        <policy policy="Duplicate" field="identifier"/>
+        <policy policy="Duplicate" field="identifier_short"/>
+        <policy policy="Duplicate" field="municipality_number"/>
+        <policy policy="DefaultValue" field="organisation_type"/>
+        <policy policy="Duplicate" field="remark"/>
+        <policy policy="DefaultValue" field="status"/>
+        <policy policy="Duplicate" field="uid"/>
+        <policy policy="Duplicate" field="last_modification"/>
+        <policy policy="Duplicate" field="fk_dataowner"/>
+        <policy policy="Duplicate" field="fk_provider"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="obj_id"/>
+        <default applyOnUpdate="0" expression="" field="identifier"/>
+        <default applyOnUpdate="0" expression="" field="identifier_short"/>
+        <default applyOnUpdate="0" expression="" field="municipality_number"/>
+        <default applyOnUpdate="0" expression="" field="organisation_type"/>
+        <default applyOnUpdate="0" expression="" field="remark"/>
+        <default applyOnUpdate="0" expression="" field="status"/>
+        <default applyOnUpdate="0" expression="" field="uid"/>
+        <default applyOnUpdate="0" expression="" field="last_modification"/>
+        <default applyOnUpdate="0" expression="" field="fk_dataowner"/>
+        <default applyOnUpdate="0" expression="" field="fk_provider"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" unique_strength="1" field="obj_id" notnull_strength="1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="identifier" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="identifier_short" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="municipality_number" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="organisation_type" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="remark" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="status" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="uid" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="last_modification" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fk_dataowner" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fk_provider" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="obj_id" desc=""/>
+        <constraint exp="" field="identifier" desc=""/>
+        <constraint exp="" field="identifier_short" desc=""/>
+        <constraint exp="" field="municipality_number" desc=""/>
+        <constraint exp="" field="organisation_type" desc=""/>
+        <constraint exp="" field="remark" desc=""/>
+        <constraint exp="" field="status" desc=""/>
+        <constraint exp="" field="uid" desc=""/>
+        <constraint exp="" field="last_modification" desc=""/>
+        <constraint exp="" field="fk_dataowner" desc=""/>
+        <constraint exp="" field="fk_provider" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column name="obj_id" hidden="0" width="-1" type="field"/>
+          <column name="identifier" hidden="0" width="-1" type="field"/>
+          <column name="identifier_short" hidden="0" width="-1" type="field"/>
+          <column name="municipality_number" hidden="0" width="224" type="field"/>
+          <column name="organisation_type" hidden="0" width="-1" type="field"/>
+          <column name="remark" hidden="0" width="-1" type="field"/>
+          <column name="status" hidden="0" width="-1" type="field"/>
+          <column name="uid" hidden="0" width="-1" type="field"/>
+          <column name="last_modification" hidden="0" width="-1" type="field"/>
+          <column name="fk_dataowner" hidden="0" width="-1" type="field"/>
+          <column name="fk_provider" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
+
+Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
+
+Der Name der Funktion wird im Feld "Python Init-Function" angegeben
+Ein Beispiel folgt:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="fk_dataowner" editable="1"/>
+        <field name="fk_provider" editable="1"/>
+        <field name="identifier" editable="1"/>
+        <field name="identifier_short" editable="1"/>
+        <field name="last_modification" editable="1"/>
+        <field name="municipality_number" editable="1"/>
+        <field name="obj_id" editable="1"/>
+        <field name="organisation_type" editable="1"/>
+        <field name="remark" editable="1"/>
+        <field name="status" editable="1"/>
+        <field name="uid" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="fk_dataowner" labelOnTop="0"/>
+        <field name="fk_provider" labelOnTop="0"/>
+        <field name="identifier" labelOnTop="0"/>
+        <field name="identifier_short" labelOnTop="0"/>
+        <field name="last_modification" labelOnTop="0"/>
+        <field name="municipality_number" labelOnTop="0"/>
+        <field name="obj_id" labelOnTop="0"/>
+        <field name="organisation_type" labelOnTop="0"/>
+        <field name="remark" labelOnTop="0"/>
+        <field name="status" labelOnTop="0"/>
+        <field name="uid" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="fk_dataowner" reuseLastValue="0"/>
+        <field name="fk_provider" reuseLastValue="0"/>
+        <field name="identifier" reuseLastValue="0"/>
+        <field name="identifier_short" reuseLastValue="0"/>
+        <field name="last_modification" reuseLastValue="0"/>
+        <field name="municipality_number" reuseLastValue="0"/>
+        <field name="obj_id" reuseLastValue="0"/>
+        <field name="organisation_type" reuseLastValue="1"/>
+        <field name="remark" reuseLastValue="0"/>
+        <field name="status" reuseLastValue="1"/>
+        <field name="uid" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"obj_id"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
